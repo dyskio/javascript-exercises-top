@@ -1,5 +1,4 @@
 const removeFromArray = function(arr, ...remove) {
-    let newArray = [];
     for (let i = 0; i < remove.length; i++){
         if (arr.includes(remove[i])){
             let ele = remove[i];
@@ -11,7 +10,6 @@ const removeFromArray = function(arr, ...remove) {
     }
     return arr;
 };
-
 
 // Do not edit below this line
 module.exports = removeFromArray;
